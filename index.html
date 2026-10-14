@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rana Vandan | Data Analyst & BI Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons and Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 1. Navigation -->
+    <nav>
+        <div class="logo">RV<span>.dev</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <a href="./resume.pdf" download="Rana_Vandan_Resume.pdf" target="_blank" class="btn-outline nav-resume">
+                <i class="fas fa-file-download"></i> Download Resume
+            </a>
+            <button class="hamburger-menu" id="hamburger-toggle" aria-label="Toggle Navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 2. Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container container">
+            <div class="hero-text">
+                <span class="greeting">👋 Hello, I'm</span>
+                <h1>Rana <span class="highlight">Vandan</span></h1>
+                <h2>I build <span class="accent" id="typing-text">data-driven insights</span><span class="cursor">|</span></h2>
+                <p class="description">
+                    Data Analyst and B.E. Computer Engineering graduate from Gujarat Technological University. 
+                    Specialized in transforming complex data into interactive Business Intelligence solutions with Power BI, SQL, Python, and Azure AI.
+                </p>
+                <div class="cta-group">
+                    <button class="btn-gradient" onclick="location.href='#projects'">View My Work</button>
+                    <button class="btn-outline" onclick="location.href='#contact'">Get In Touch</button>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/vandan54" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/vandan-rana-09060a283" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-border">
+                    <img src="./vandan.jpeg" alt="Rana Vandan Profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. About Section -->
+    <section id="about" class="section-padding bg-alt">
+        <div class="container">
+            <div class="about-flex">
+                <div class="about-left">
+                    <div class="about-metric-box">
+                        <div class="metric-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="metric-text">
+                            <h3>Analytics & BI</h3>
+                            <p>Power BI • Superset • SQL</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <p class="section-subtitle">WHO I AM</p>
+                    <h2 class="section-title">About <span>Me</span></h2>
+                    <h3 class="about-headline">Data Analyst | Business Intelligence & Engineering Graduate</h3>
+                    <p class="about-description">
+                        I am a detail-oriented Data Analyst and Computer Engineering graduate with a strong analytical foundation. My hands-on background includes a 6-month Data Analyst Internship at Outamation Technology Pvt. Ltd. and a technical Microsoft Data & AI Internship powered by Cloud That.
+                    </p>
+                    <p class="about-description">
+                        I specialize in data cleaning, DAX measures, time-series forecasting, and architecting interactive reporting systems across Power BI, Apache Superset, SQL, and Python.
+                    </p>
+                    <div class="about-cards">
+                        <div class="status-card">
+                            <h4>8.18</h4>
+                            <p>B.E. CGPA</p>
+                        </div>
+                        <div class="status-card">
+                            <h4>6 Months</h4>
+                            <p>Outamation Tech</p>
+                        </div>
+                        <div class="status-card">
+                            <h4>Microsoft</h4>
+                            <p>Data & AI Intern</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Skills Section -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>BI & Visualization</h4>
+                    <div class="tags">
+                        <span>Power BI (DAX, Power Query)</span>
+                        <span>Apache Superset</span>
+                        <span>Excel (Pivot Tables)</span>
+                        <span>Data Visualization</span>
+                        <span>KPI Dashboards</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Databases & Cloud</h4>
+                    <div class="tags">
+                        <span>SQL</span>
+                        <span>PostgreSQL</span>
+                        <span>MySQL</span>
+                        <span>Azure AI (AI-900)</span>
+                        <span>Normalized Schemas</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Programming & Analytics</h4>
+                    <div class="tags">
+                        <span>Python (Pandas, NumPy)</span>
+                        <span>Data Cleaning</span>
+                        <span>Time-Series Forecasting</span>
+                        <span>Statistics</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Projects Section -->
+    <section id="projects" class="section-padding bg-alt">
+        <div class="container">
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+
+            <!-- Group 1: Business Intelligence & Data Analytics -->
+            <div class="project-group">
+                <div class="group-header">
+                    <span class="group-badge"><i class="fas fa-chart-line"></i> Analytics</span>
+                    <h3 class="group-title">Business Intelligence & Data Analytics</h3>
+                    <p class="group-desc">End-to-end data pipelines, executive dashboards, telemetry auditing, and predictive models.</p>
+                </div>
+                
+                <div class="project-grid">
+                    <!-- 1. Finance Analysis Dashboard (Outamation Tech) -->
+                    <div class="project-card">
+                        <div class="card-image-wrapper">
+                            <img 
+                                src="./finance-overview.png" 
+                                alt="Enterprise Finance Analysis Dashboard" 
+                                class="card-img"
+                            />
+                            <span class="badge">Finance & BI</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Enterprise Finance Analysis Dashboard</h3>
+                            <p>Architected an executive finance dashboard in Power BI tracking INR 135.62M total amount, 15,029 transactions, and INR 217.30K fees across Retail, SME, and Corporate tiers with dynamic YoY filters.</p>
+                            <div class="tags">
+                                <span>Power BI</span>
+                                <span>DAX</span>
+                                <span>SQL</span>
+                                <span>Excel</span>
+                            </div>
+                            <div class="card-actions">
+                                <a href="https://github.com/vandan54" target="_blank" rel="noopener noreferrer" class="btn-card-primary">
+                                    <i class="fab fa-github"></i> Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Pizza Hut Analytics -->
+                    <div class="project-card">
+                        <div class="card-image-wrapper">
+                            <img 
+                                src="https://raw.githubusercontent.com/vandan54/Pizza_Hut/main/dashboards/screenshots/tab1_executive_overview.png" 
+                                alt="Pizza Hut Analytics Executive Dashboard" 
+                                class="card-img"
+                            />
+                            <span class="badge">BI & Operations</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Pizza Hut Enterprise Analytics</h3>
+                            <p>Architected a 5-tab BI dashboard in Apache Superset modeling 21,350+ orders from PostgreSQL. Tracked kitchen SLA bottlenecks, menu profitability, and customer lifetime value.</p>
+                            <div class="tags">
+                                <span>Apache Superset</span>
+                                <span>PostgreSQL</span>
+                                <span>SLA Telemetry</span>
+                                <span>Advanced SQL</span>
+                            </div>
+                            <div class="card-actions">
+                                <a href="https://github.com/vandan54/Pizza_Hut" target="_blank" rel="noopener noreferrer" class="btn-card-primary">
+                                    <i class="fab fa-github"></i> Repository
+                                </a>
+                                <a href="https://github.com/vandan54/Pizza_Hut#1--executive-overview-tab-1" target="_blank" rel="noopener noreferrer" class="btn-card-outline">
+                                    Preview
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Superset Metadata Audit -->
+                    <div class="project-card">
+                        <div class="card-image-wrapper">
+                            <img 
+                                src="https://raw.githubusercontent.com/vandan54/superset-metadata-audit/main/dashboards/screenshots/tab1_access_overview.png" 
+                                alt="Superset Metadata Audit Dashboard" 
+                                class="card-img"
+                            />
+                            <span class="badge">Governance & Security</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Superset Metadata Auditing</h3>
+                            <p>Architected a 3-tab governance dashboard using PostgreSQL telemetry logs and RBAC tables to analyze user activity, role distributions, and asset adoption.</p>
+                            <div class="tags">
+                                <span>Apache Superset</span>
+                                <span>PostgreSQL</span>
+                                <span>Telemetry</span>
+                                <span>RBAC</span>
+                            </div>
+                            <div class="card-actions">
+                                <a href="https://github.com/vandan54/superset-metadata-audit" target="_blank" rel="noopener noreferrer" class="btn-card-primary">
+                                    <i class="fab fa-github"></i> Repository
+                                </a>
+                                <a href="https://github.com/vandan54/superset-metadata-audit#1-access--user-overview-tab-1" target="_blank" rel="noopener noreferrer" class="btn-card-outline">
+                                    Preview
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4. Mobile Sales Dashboard -->
+                    <div class="project-card">
+                        <div class="card-image-wrapper">
+                            <img 
+                                src="https://raw.githubusercontent.com/vandan54/Mobile_Sales_Dashboard/main/overview.png" 
+                                alt="Mobile Sales Performance Dashboard" 
+                                class="card-img"
+                            />
+                            <span class="badge">Retail BI & Sales</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Mobile Sales Performance & Analysis</h3>
+                            <p>An interactive Power BI analytics solution monitoring 769M+ retail sales. Tracks MTD/YoY trends, city-wise revenue distribution (Delhi, Mumbai), mobile model margins, and payment flows.</p>
+                            <div class="tags">
+                                <span>Power BI</span>
+                                <span>DAX</span>
+                                <span>Retail Analytics</span>
+                                <span>Sales Forecasting</span>
+                            </div>
+                            <div class="card-actions">
+                                <a href="https://github.com/vandan54/Mobile_Sales_Dashboard" target="_blank" rel="noopener noreferrer" class="btn-card-primary">
+                                    <i class="fab fa-github"></i> Repository
+                                </a>
+                                <a href="https://github.com/vandan54/Mobile_Sales_Dashboard#readme" target="_blank" rel="noopener noreferrer" class="btn-card-outline">
+                                    Preview
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Group 2: Software & Database Systems -->
+            <div class="project-group">
+                <div class="group-header">
+                    <span class="group-badge group-badge-purple"><i class="fas fa-database"></i> Engineering</span>
+                    <h3 class="group-title">Software & Database Systems</h3>
+                    <p class="group-desc">Full-stack operational applications, normalized schema architectures, and relational state management.</p>
+                </div>
+                
+                <div class="project-grid">
+                    <!-- 5. Inventory Management System -->
+                    <div class="project-card">
+                        <div class="card-body no-img-body">
+                            <span class="card-kicker"><i class="fas fa-boxes"></i> Operations</span>
+                            <h3>Inventory Management & Oversight System</h3>
+                            <p>Built a responsive enterprise tracking portal with role-based manager access, live stock audit logs, alert triggers on low balances, and multi-tier store routing.</p>
+                            <div class="tags">
+                                <span>Node.js</span>
+                                <span>React</span>
+                                <span>PostgreSQL</span>
+                                <span>REST APIs</span>
+                            </div>
+                            <div class="card-actions">
+                                <a href="https://github.com/vandan54/Inventory-Management-System" target="_blank" rel="noopener noreferrer" class="btn-card-primary">
+                                    <i class="fab fa-github"></i> Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6. Plasma Donation Management System -->
+                    <div class="project-card">
+                        <div class="card-body no-img-body">
+                            <span class="card-kicker"><i class="fas fa-hand-holding-medical"></i> Healthcare</span>
+                            <h3>Plasma Donation Management System</h3>
+                            <p>Constructed a relational workflow engine to register donors, match blood/plasma requests with verified stocks, and validate clinical eligibility criteria.</p>
+                            <div class="tags">
+                                <span>Node.js</span>
+                                <span>Database Design</span>
+                                <span>SQL Schemas</span>
+                                <span>Express</span>
+                            </div>
+                            <div class="card-actions">
+                                <a href="https://github.com/vandan54/Plasma-Donation-Management-System" target="_blank" rel="noopener noreferrer" class="btn-card-primary">
+                                    <i class="fab fa-github"></i> Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 6. Experience Section -->
+    <section id="experience" class="section-padding">
+        <div class="container">
+            <p class="section-subtitle" style="text-align: center;">CAREER PATH</p>
+            <h2 class="section-title">Work <span>Experience</span></h2>
+
+            <div class="education-grid">
+                <!-- 1. Outamation Technology Internship -->
+                <div class="edu-card">
+                    <span class="date">JAN 2026 – JUL 2026 (6 MONTHS)</span>
+                    <h3>Data Analyst Intern</h3>
+                    <p><strong>Outamation Technology Pvt. Ltd. | Nadiad</strong></p>
+                    <p style="margin-top: 8px;">
+                        Architected an enterprise Finance Analysis Dashboard in Power BI tracking INR 135.62M total amount and 15,029 transactions. Executed ETL data cleaning and modeled SQL/Excel metrics across Retail, SME, and Corporate tiers.
+                    </p>
+                </div>
+
+                <!-- 2. Microsoft Data & AI Internship -->
+                <div class="edu-card">
+                    <span class="date">JULY 2025 | CLOUD THAT</span>
+                    <h3>Microsoft Data & AI Intern</h3>
+                    <p><strong>Microsoft & Cloud That Program</strong></p>
+                    <p style="margin-top: 8px;">
+                        Completed 78 hours of intensive skill-based training. Specialized in Power BI for Data Analysis (PL-300), Azure AI Fundamentals (AI-900), data modeling, and NLP workflows.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Education & Achievements Section -->
+    <section id="education" class="section-padding bg-alt">
+        <div class="container">
+            <p class="section-subtitle" style="text-align: center;">MY BACKGROUND</p>
+            <h2 class="section-title">Academic & <span>Credentials</span></h2>
+
+            <div class="education-grid">
+                <!-- 1. Bachelor's in Computer Engineering -->
+                <div class="edu-card">
+                    <span class="date">2023 – 2026 | GTU</span>
+                    <h3>Bachelor of Computer Engineering</h3>
+                    <p><strong>Gujarat Technological University</strong> (CGPA: 8.18)</p>
+                    <p style="margin-top: 8px;">
+                        Graduated with distinction focusing on analytical problem-solving, database management systems (DBMS), algorithms, and business intelligence reporting.
+                    </p>
+                </div>
+
+                <!-- 2. Diploma in Computer Engineering -->
+                <div class="edu-card">
+                    <span class="date">2020 – 2023 | GTU</span>
+                    <h3>Diploma in Computer Engineering</h3>
+                    <p><strong>Gujarat Technological University</strong> (CGPA: 6.89)</p>
+                    <p style="margin-top: 8px;">
+                        Built core technical foundations in programming, database structures, web engineering, and software development methodologies.
+                    </p>
+                </div>
+
+                <!-- 3. Smart India Hackathon & Certifications -->
+                <div class="edu-card">
+                    <span class="date">ACHIEVEMENTS & HONORS</span>
+                    <h3>Smart India Hackathon 2025</h3>
+                    <p><strong>Nominated & Participated | SPCET</strong></p>
+                    <p style="margin-top: 8px;">
+                        Nominated and participated in the Internal SIH Hackathon at Sardar Patel College of Engineering & Technology. Certified in 30-Day Power BI and 30-Day SQL micro courses.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <p class="section-subtitle" style="text-align: center;">SAY HELLO</p>
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+
+            <div class="contact-flex">
+                <div class="contact-info">
+                    <p class="contact-desc">
+                        Have a project in mind or looking for a skilled Data Analyst? 
+                        Feel free to drop a message and I'll get back to you shortly.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:ranavandan54@gmail.com">ranavandan54@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+919537448400">+91 9537448400</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Gujarat, India</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Open to opportunities</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+    <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="d306d954-55ae-4b1a-8b32-0e42670f63a8">
+
+        <div class="input-group">
+            <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="input-group">
+            <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="input-group">
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn-gradient full-width">Send Message 🚀</button>
+    </form>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Footer -->
+    <footer>
+        <p>&copy; 2026 Rana Vandan. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
